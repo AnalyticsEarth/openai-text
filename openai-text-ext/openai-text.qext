@@ -1,0 +1,13 @@
+{
+  "name": "OpenAI Question",
+  "version": "0.1.0",
+  "description": "",
+  "author": {
+    "name": "Steven Pressland",
+    "email": "steven.pressland@qlik.com"
+  },
+  "icon": "extension",
+  "preview": "",
+  "type": "visualization",
+  "supernova": true
+}

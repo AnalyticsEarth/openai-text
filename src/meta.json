@@ -1,0 +1,7 @@
+{
+  "name": "OpenAI Question",
+  "icon": "extension",
+  "preview": "",
+  "version":"0.1.0",
+  "description":"Allows rendering of answers from Qlik Sense to OpenAI"
+}
