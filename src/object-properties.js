@@ -31,23 +31,12 @@ const getSettings = ({ translator, flags, anything }) => {
 };
 
 export default function ({ translator, flags, anything }) {
-  console.log(translator);
-  console.log(flags);
-  console.log(anything);
   return {
       type: 'items',
       component: 'accordion',
       items: {
-        openai: {
-          label: 'OpenAI',
-          items: {
-            question: {
-              type: 'string',
-              expression: 'optional',
-              label: 'Prompt',
-              ref: 'openaiquestion',
-            },
-          },
+        data: {
+          uses: 'data',
         },
         appearance: getSettings({ translator, flags, anything }),
       },
