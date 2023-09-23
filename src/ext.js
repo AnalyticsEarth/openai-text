@@ -4,10 +4,10 @@ export default function ext(env) {
   return {
     definition: pp(env),
     support: {
-      snapshot: false,
-      export: false,
+      snapshot: true,
+      export: true,
       sharing: false,
-      exportData: false,
+      exportData: true,
       viewData: false,
     },
     importProperties: null,
